@@ -1,0 +1,8 @@
+{
+    "imports": {
+        "oak/": "https://deno.land/x/oak@14.2.0/"
+    },
+    "tasks": {
+        "dev": "deno run --allow-net --allow-read --allow-env --watch server.ts"
+    }
+}
